@@ -1,25 +1,27 @@
 {
-  "name": "chiho",
+  "name": "contactlistapp",
   "version": "1.0.0",
-  "description": "### Specification     - DBMS : MongoDB + MySQL     - Framework : HTML5 + Node.js + Express + Web Animation",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongodb": "^2.2.5",
-    "mongoose": "^4.5.9"
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "mongojs": "^0.18.1",
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skychb/DB_Adv_Prj.git"
+    "url": "https://github.com/michaelcheng429/meanstacktutorial.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skychb/DB_Adv_Prj/issues"
+    "url": "https://github.com/michaelcheng429/meanstacktutorial/issues"
   },
-  "homepage": "https://github.com/skychb/DB_Adv_Prj#readme"
+  "homepage": "https://github.com/michaelcheng429/meanstacktutorial"
 }
